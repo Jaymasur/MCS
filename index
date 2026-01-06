@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Masur Consultant Services & Portfolio</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- Optional: Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <style>
+    body {
+      font-family: 'Inter', sans-serif;
+      scroll-behavior: smooth;
+    }
+    .hero {
+      background: url('images/hero-bg.jpg') center/cover no-repeat;
+      color: white;
+      height: 100vh;
+      display: flex;
+      align-items: center;
+    }
+    .hero-overlay {
+      background-color: rgba(0, 0, 0, 0.5);
+      height: 100%;
+      width: 100%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      padding: 0 20px;
+    }
+    .section-padding {
+      padding: 80px 0;
+    }
+    .card:hover {
+      transform: scale(1.05);
+      transition: transform 0.3s ease;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold" href="#home">Masur Consultant Services</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#services">Services</a></li>
+          <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-overlay">
+      <h1 class="display-4 fw-bold">Turning Data Into Insights & Streamlined Web Solutions</h1>
+      <p class="lead">Web Development & Data Analytics tailored for your business</p>
+      <div class="mt-4">
+        <a href="#services" class="btn btn-primary btn-lg me-3">Explore Services</a>
+        <a href="#portfolio" class="btn btn-outline-light btn-lg">View Portfolio</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services Section -->
+  <section id="services" class="section-padding bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">Masur Consultant Services</h2>
+      <div class="row g-4">
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 text-center p-3">
+            <i class="fas fa-laptop-code fa-3x mb-3 text-primary"></i>
+            <h5 class="card-title fw-bold">Web Development</h5>
+            <p class="card-text">Responsive websites, web apps, and modern front-end solutions using HTML, CSS,
+                Bootstrap 5, JavaScript,</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 text-center p-3">
+            <i class="fas fa-chart-line fa-3x mb-3 text-success"></i>
+            <h5 class="card-title fw-bold">Data Analysis & Dashboards</h5>
+            <p class="card-text">Python, R, SQL, Excel (Advanced), MATLAB, Mathematica, Python-based analytics and visualization.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 text-center p-3">
+            <i class="fas fa-robot fa-3x mb-3 text-warning"></i>
+            <h5 class="card-title fw-bold">Automation & Scripting</h5>
+            <p class="card-text">Streamline workflows and automate repetitive tasks efficiently.</p>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-3">
+          <div class="card h-100 text-center p-3">
+            <i class="fas fa-lightbulb fa-3x mb-3 text-danger"></i>
+            <h5 class="card-title fw-bold">Business Intelligence</h5>
+            <p class="card-text">Actionable insights, reporting, and decision-making support for your business.</p>
+          </div>
+        </div>
+      </div>
+      <div class="text-center mt-5">
+        <a href="#contact" class="btn btn-primary btn-lg">Book a Consultation</a>
+      </div>
+    </div>
+  </section>
+<!-- Portfolio Section -->
+<section id="portfolio" class="section-padding">
+    <div class="container">
+      <h2 class="text-center mb-5">Portfolio</h2>
+      <div class="row g-4">
+  
+        <!-- Project 1: Jays Junk Removal -->
+        <div class="col-12 col-md-6">
+          <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden hover-scale">
+            <div class="ratio ratio-16x9">
+              <iframe src="https://jaymasur.github.io/Jays-junk-removal/" 
+                      title="Jays Junk Removal Live Preview" 
+                      allowfullscreen
+                      class="rounded-top-4"></iframe>
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Jays Junk Removal</h5>
+              <p class="card-text">A full website for a junk removal business, built with HTML, CSS, and Bootstrap 5, including gallery, pricing, and appointment features.</p>
+              <a href="https://jaymasur.github.io/Jays-junk-removal/" target="_blank" class="btn btn-outline-primary btn-sm mb-2">View Full Site</a><br>
+              <a href="https://github.com/Jaymasur/Jays-junk-removal" target="_blank" class="btn btn-outline-secondary btn-sm">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+  
+        <!-- Project 2: Weaver Bros -->
+        <div class="col-12 col-md-6">
+          <div class="card h-100 shadow-sm border-0 rounded-4 overflow-hidden hover-scale">
+            <div class="ratio ratio-16x9">
+              <iframe src="https://jaymasur.github.io/Weaver-Bros/" 
+                      title="Weaver Bros Live Preview" 
+                      allowfullscreen
+                      class="rounded-top-4"></iframe>
+            </div>
+            <div class="card-body text-center">
+              <h5 class="card-title fw-bold">Weaver Bros</h5>
+              <p class="card-text">Web project for showcasing services and projects for Weaver Bros, with responsive layout and interactive features.</p>
+              <a href="https://jaymasur.github.io/Weaver-Bros/" target="_blank" class="btn btn-outline-primary btn-sm mb-2">View Full Site</a><br>
+              <a href="https://github.com/Jaymasur/Weaver-Bros" target="_blank" class="btn btn-outline-secondary btn-sm">View on GitHub</a>
+            </div>
+          </div>
+        </div>
+  
+      </div>
+    </div>
+  </section>
+  
+  <!-- Add or update these styles in your <style> tag -->
+  <style>
+    .hover-scale {
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+    .hover-scale:hover {
+      transform: translateY(-5px) scale(1.02);
+      box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    }
+    iframe.rounded-top-4 {
+      border-top-left-radius: 0.75rem;
+      border-top-right-radius: 0.75rem;
+    }
+    /* Ensure iframe scales nicely on smaller devices */
+    @media (max-width: 767px) {
+      .ratio {
+        min-height: 300px; /* Ensures iframe has visible height on mobile */
+      }
+    }
+  </style>
+  
+  <!-- About Section -->
+  <section id="about" class="section-padding bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">About Me</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8 text-center">
+          </p>  Hello! I’m Jay Masur, a Web Developer and Data Analyst with over 3 years of experience. 
+  I have a strong foundation in mathematics, econometrics, and statistical modeling, 
+  and I build digital solutions that help small businesses succeed.<br><br>
+
+  I am recognized for problem-solving, adaptability, and clear communication with both 
+  technical and nontechnical stakeholders.<br><br>
+
+  I am passionate about creating tools that simplify workflows and drive measurable 
+  business growth.<br><br>
+
+  I also help businesses and individuals transform data into actionable insights and 
+  build clean, functional web solutions. My goal is to deliver impactful solutions 
+  that make work easier and smarter.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section-padding">
+    <div class="container">
+      <h2 class="text-center mb-5">Contact Me</h2>
+      <div class="row justify-content-center">
+        <div class="col-md-8">
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="Your Email">
+            </div>
+            <div class="mb-3">
+              <label for="subject" class="form-label">Subject</label>
+              <input type="text" class="form-control" id="subject" placeholder="Subject">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+            </div>
+            <div class="text-center">
+              <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+            </div>
+          </form>
+          <div class="text-center mt-3">
+            <p>Or reach me at: <a href="mailto:masurconsultantervices@gmail.com">masurconsultantervices@gmail.com</a> | Phone: (570) 846-7988</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white py-4">
+    <div class="container text-center">
+      <p>© 2026 Masur Consultant Services. All rights reserved.</p>
+      <div>
+        <!-- LinkedIn -->
+        <a href="https://www.linkedin.com/in/jaymasur" target="_blank" class="text-white me-3">
+          <i class="fab fa-linkedin fa-lg"></i>
+        </a>
+        <!-- GitHub -->
+        <a href="https://github.com/Jaymasur" target="_blank" class="text-white me-3">
+          <i class="fab fa-github fa-lg"></i>
+        </a>
+      </div>
+    </div>
+  </footer>
+  
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
