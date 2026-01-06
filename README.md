@@ -30,7 +30,7 @@ You can view the live website here:
 ## 🔗 Connect with Me
 
 - **LinkedIn:** [www.linkedin.com/in/jaymasur](https://www.linkedin.com/in/jaymasur)  
-- **GitHub Pages:** [jaymasur.github.io](https://jaymasur.github.io)
+- **GitHub Pages:** [www.jaymasur.github.io]([https://github.com/Jaymasur)
 
 ---
 
